@@ -1,6 +1,10 @@
 const categories = {
    variables_types: document.getElementById("variables-types"),
    operations_comparisons: document.getElementById("operations-comparisons"),
+   math_assignments: document.getElementById("math_assignments"),
+   strings: document.getElementById("strings"),
+   string_methods: document.getElementById("string_methods"),
+   challenges: document.getElementById("challenges"),
 };
 
 fetch('exercises.json')
@@ -14,14 +18,10 @@ fetch('exercises.json')
             div.innerHTML = `
                <h5>${exercise.title}</h5>
                <p>${exercise.description}</p>
-               <pre><code class="language-javascript">${exercise.starterCode}</code></pre>
+               <pre><code class="language-javascript">${exercise.solution}</code></pre>
             `;
             container.appendChild(div)
          })
       })
+      hljs.highlightAll()
    })
-
-   const nome = 'Thais'
-   const idade = 21
-   console.log(`Seu nome é ${nome} e sua idade é ${idade}`)
-
