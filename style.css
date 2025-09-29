@@ -1,0 +1,84 @@
+body {
+   height: 100%;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+   color: #15803D;
+}
+
+main {
+   min-height: 100vh;
+   padding: 1rem;
+   max-width: 890px !important;
+}
+
+
+
+/* Bloco de código geral */
+pre code {
+   display: block;
+   background-color: #1e1e2e;
+   /* fundo dark consistente */
+   color: #f8f8f2;
+   /* cor padrão do texto */
+   padding: 1rem;
+   border-radius: 8px;
+   overflow-x: auto;
+   font-family: 'Fira Code', monospace;
+   font-size: 0.95rem;
+   line-height: 1.5;
+}
+
+/* Comentários */
+.hljs-comment,
+.hljs-quote {
+   color: #6272a4;
+   font-style: italic;
+}
+
+/* Keywords e declarações */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+   color: #ff79c6;
+   font-weight: bold;
+}
+
+/* Strings, títulos, atributos */
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+   color: #50fa7b;
+}
+
+/* Números e links */
+.hljs-number,
+.hljs-meta,
+.hljs-link {
+   color: #bd93f9;
+}
+
+/* Deleção ou erros */
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-literal {
+   color: #ff5555;
+}
+
+/* Operadores */
+.hljs-operator {
+   color: #ff79c6;
+}
+
+/* Funções */
+.hljs-function {
+   color: #8be9fd;
+}
