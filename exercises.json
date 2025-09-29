@@ -4,35 +4,48 @@
          "id": 1,
          "title": "Exercício 1",
          "description": "Declare uma variável para armazenar seu nome e outra para sua idade. Mostre uma frase concatenando as duas.",
-         "starterCode": "const nome = 'Thais' \n const idade = 21 \n console.log(`Seu nome é ${nome} e sua idade é ${idade}`)",
-         "solution": "const result = `Hello, my name is ${name} and I am ${age} years old.`;"
+         "solution": "const nome = 'Thais' \n const idade = 21 \n console.log(`Seu nome é ${nome} e sua idade é ${idade}`)"
       },
       {
          "id": 2,
          "title": "Exercício 2",
          "description": "Crie uma variável city usando const. Tente reatribuir o valor e veja o erro.",
-         "starterCode": "// Your code here",
          "solution": "const result = `2 + 2 = ${2 + 2}`;"
       },
       {
          "id": 3,
          "title": "Exercício 3",
          "description": "Crie uma variável temperature com valor decimal. Converta para inteiro usando parseInt.",
-         "starterCode": "// Your code here",
          "solution": "const result = `2 + 2 = ${2 + 2}`;"
       },
       {
          "id": 4,
          "title": "Exercício 4",
          "description": "Crie uma variável amount com valor string '100'. Converta para número e some com 50.",
-         "starterCode": "// Your code here",
          "solution": "const result = `2 + 2 = ${2 + 2}`;"
       },
       {
          "id": 5,
          "title": "Exercício 5",
          "description": "Declare uma variável isLogged com valor booleano e alterne entre true e false.",
-         "starterCode": "// Your code here",
+         "solution": "const result = `2 + 2 = ${2 + 2}`;"
+      },
+      {
+         "id": 6,
+         "title": "Exercício 6",
+         "description": "Teste null e undefined: crie duas variáveis, uma com null e outra sem valor. Mostre no console a diferença.",
+         "solution": "const result = `2 + 2 = ${2 + 2}`;"
+      },
+      {
+         "id": 7,
+         "title": "Exercício 7",
+         "description": "Declare um array com 3 frutas e mostre a primeira fruta.",
+         "solution": "const result = `2 + 2 = ${2 + 2}`;"
+      },
+      {
+         "id": 8,
+         "title": "Exercício 8",
+         "description": "Crie um objeto person com nome e idade. Acesse cada propriedade.",
          "solution": "const result = `2 + 2 = ${2 + 2}`;"
       }
    ],
@@ -41,14 +54,36 @@
          "id": 1,
          "title": "Exercício 1",
          "description": "Verifique se o número 10 é igual à string '10' usando == e ===.",
-         "starterCode": "Your code here",
          "solution": "const result = str.slice(0, 4);"
       },
       {
-         "id": 1,
+         "id": 2,
          "title": "Exercício 2",
          "description": "Verifique se o número 10 é igual à string '10' usando == e ===.",
-         "starterCode": "Your code here",
+         "solution": "const result = str.slice(0, 4);"
+      },
+      {
+         "id": 3,
+         "title": "Exercício 3",
+         "description": "Crie duas variáveis com idades e verifique quem é mais velho.",
+         "solution": "const result = str.slice(0, 4);"
+      },
+      {
+         "id": 4,
+         "title": "Exercício 4",
+         "description": "Use >= para verificar se alguém pode entrar em uma festa (idade mínima 18).",
+         "solution": "const result = str.slice(0, 4);"
+      },
+      {
+         "id": 5,
+         "title": "Exercício 5",
+         "description": "Crie duas variáveis balance e withdraw. Verifique se é possível sacar o dinheiro.",
+         "solution": "const result = str.slice(0, 4);"
+      },
+      {
+         "id": 6,
+         "title": "Exercício 6",
+         "description": "Teste o operador ! em valores booleanos (true e false).",
          "solution": "const result = str.slice(0, 4);"
       }
    ],
@@ -57,7 +92,174 @@
          "id": 1,
          "title": "Exercício 1",
          "description": "Faça uma soma, subtração, multiplicação e divisão com dois números.",
-         "starterCode": "const str = 'Hello World';\n// Your code here",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 2,
+         "title": "Exercício 2",
+         "description": "Use o operador % para descobrir o resto da divisão de 17 / 5.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 3,
+         "title": "Exercício 3",
+         "description": "Crie uma variável count = 0. Use ++ três vezes.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 4,
+         "title": "Exercício 4",
+         "description": "Faça o inverso do anterior com --.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 5,
+         "title": "Exercício 5",
+         "description": "Use += para somar 10 a uma variável score.",
+         "solution": "const result = str.split(' ');"
+      }
+   ],
+   "strings": [
+      {
+         "id": 1,
+         "title": "Exercício 1",
+         "description": "Crie uma string greeting = 'Hello World'. Mostre o comprimento dela.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 2,
+         "title": "Exercício 2",
+         "description": "Acesse a primeira letra da string usando colchetes.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 3,
+         "title": "Exercício 3",
+         "description": "Use .charAt(4) para acessar a letra de posição 4.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 4,
+         "title": "Exercício 4",
+         "description": "Transforme 'javascript' em 'JAVASCRIPT'.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 5,
+         "title": "Exercício 5",
+         "description": "Transforme 'CODE' em 'code'",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 6,
+         "title": "Exercício 6",
+         "description": "Verifique se 'world' está dentro de 'Hello world'.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 7,
+         "title": "Exercício 7",
+         "description": "Use indexOf para encontrar a posição da letra 'o' em 'Hello'.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 8,
+         "title": "Exercício 8",
+         "description": "Substitua 'dog' por 'cat' em 'I have a dog' usando .replace().",
+         "solution": "const result = str.split(' ');"
+      }
+   ],
+   "string_methods": [
+      {
+         "id": 1,
+         "title": "Exercício 1",
+         "description": "Use slice para extrair 'Java' de 'JavaScript'.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 2,
+         "title": "Exercício 2",
+         "description": "Use slice para extrair 'Script' do mesmo texto.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 3,
+         "title": "Exercício 3",
+         "description": "Crie uma string 'Code and coffee'. Use split() para separar em palavras.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 4,
+         "title": "Exercício 4",
+         "description": "Use split('o') para ver como a string fica dividida.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 5,
+         "title": "Exercício 5",
+         "description": "Use split('', 2) para pegar só duas palavras.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 6,
+         "title": "Exercício 6",
+         "description": "Crie uma string com espaços antes e depois. Use .trim().",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 7,
+         "title": "Exercício 7",
+         "description": "Pegue 'JavaScript is awesome' e conte quantas palavras existem (dica: split('')).",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 8,
+         "title": "Exercício 8",
+         "description": "Inverta uma string ('Hello' → 'olleH') usando split, reverse e join.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 9,
+         "title": "Exercício 9",
+         "description": "Pegue 'banana' e conte quantas vezes a letra 'a' aparece (dica: split e length).",
+         "solution": "const result = str.split(' ');"
+      }
+   ],
+   "challenges": [
+      {
+         "id": 1,
+         "title": "Exercício 1",
+         "description": "Peça ao usuário (via prompt) seu nome e exiba em maiúsculas.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 2,
+         "title": "Exercício 2",
+         "description": "Verifique se uma palavra é um palíndromo (ex: 'radar' → true).",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 3,
+         "title": "Exercício 3",
+         "description": "Escreva uma função que receba uma string e devolva apenas as vogais dela.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 4,
+         "title": "Exercício 4",
+         "description": "Crie uma frase longa e mostre apenas as 10 primeiras letras.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 5,
+         "title": "Exercício 5",
+         "description": "Crie uma frase e conte quantas letras (sem espaços) ela tem.",
+         "solution": "const result = str.split(' ');"
+      },
+      {
+         "id": 6,
+         "title": "Exercício 6",
+         "description": "Junte duas strings com template literals e mostre o resultado no console.",
          "solution": "const result = str.split(' ');"
       }
    ]
