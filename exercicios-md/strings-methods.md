@@ -9,8 +9,8 @@ Use slice para extrair 'Java' de 'JavaScript'.
 
 ```javascript
 let str = 'JavaScript'
-   let extracted = str.slice(0,4)
-   console.log(extracted)
+let extracted = str.slice(0,4)
+console.log(extracted)
 ```
 ### Exercício 2
 
@@ -47,7 +47,6 @@ Use split('o') para ver como a string fica dividida.
 ```javascript
 let text = 'Code and coffee'
 console.log(text.split('o'))
-
 ```
 
 ### Exercício 5
@@ -58,8 +57,8 @@ Use split('', 2) para pegar só duas palavras.
 **Código de Exemplo / Solução:**
 
 ```javascript
-let code = 'CODE'
-console.log(code.toLowerCase())
+let text = 'Code and coffee'
+console.log(text.split(' ', 2))
 ```
 
 ### Exercício 6
@@ -70,44 +69,44 @@ Crie uma string com espaços antes e depois.
 **Código de Exemplo / Solução:**
 
 ```javascript
-let str = 'Hello world'
-console.log(str.includes('world'))
-// or
-console.log(str.indexOf('world') !== -1)
+let str = '  Code and coffee  '
+console.log(str.trim())
 ```
 
 ### Exercício 7
 
 **Descrição:**  
-Pegue 'JavaScript is awesome' e conte quantas palavras existem (dica: split('')).
+Pegue 'JavaScript is awesome' e conte quantas palavras existem.
 
 **Código de Exemplo / Solução:**
 
 ```javascript
-let hey = 'Hello'
-console.log(hey.indexOf('o'))
+let texto = 'JavaScript is awesome'
+let qtd = text.split(' ').length
+console.log(`existem ${qtd} palavras`)
 ```
 
 ### Exercício 8
 
 **Descrição:**  
-Inverta uma string ('Hello' → 'olleH') usando split, reverse e join.
+Inverta uma string ('Hello' → 'olleH').
 
 **Código de Exemplo / Solução:**
 
 ```javascript
-let a = 'I have a dog'
-console.log(a.replace('dog', 'cat'))
-
+   let str = 'Hello'
+   let newStr = str.split('').reverse().join('')
+   console.log(newStr);
 ```
 ### Exercício 9
 
 **Descrição:**  
-Pegue 'banana' e conte quantas vezes a letra 'a' aparece (dica: split e length).
+Pegue 'banana' e conte quantas vezes a letra 'a' aparece.
 
 **Código de Exemplo / Solução:**
 
 ```javascript
-let a = 'I have a dog'
-console.log(a.replace('dog', 'cat'))
+   let fruit = 'banana'
+   let count = fruit.split('a')
+   console.log(count.length - 1)
 ```

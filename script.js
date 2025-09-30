@@ -26,20 +26,5 @@ fetch('exercises.json')
       hljs.highlightAll()
    })
 
-   // ex 1
-   
-   
-   // ex 2
-   
-
-   // ex 5
-let text = 'Code and coffee'
-console.log(text.split(' ', 2))
-
-// ex 6
-let str = '  Code and coffee  '
-console.log(str.trim())
-
-// ex 7
 
 
