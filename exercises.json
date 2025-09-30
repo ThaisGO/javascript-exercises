@@ -124,49 +124,49 @@
          "id": 1,
          "title": "Exercício 1",
          "description": "Crie uma string greeting = 'Hello World'. Mostre o comprimento dela.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let text = 'Hello World' \nconsole.log(text.length)"
       },
       {
          "id": 2,
          "title": "Exercício 2",
          "description": "Acesse a primeira letra da string usando colchetes.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let text = 'Hello World' \nconsole.log(text[0])"
       },
       {
          "id": 3,
          "title": "Exercício 3",
          "description": "Use .charAt(4) para acessar a letra de posição 4.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let text = 'Hello World' \nconsole.log(text.charAt(4))"
       },
       {
          "id": 4,
          "title": "Exercício 4",
          "description": "Transforme 'javascript' em 'JAVASCRIPT'.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let str = 'javascript' \nconsole.log(str.toUpperCase())"
       },
       {
          "id": 5,
          "title": "Exercício 5",
          "description": "Transforme 'CODE' em 'code'",
-         "solution": "const result = str.split(' ');"
+         "solution": "let code = 'CODE' \nconsole.log(code.toLowerCase())"
       },
       {
          "id": 6,
          "title": "Exercício 6",
          "description": "Verifique se 'world' está dentro de 'Hello world'.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let str = 'Hello world' \nconsole.log(str.includes('world')) \n// or \nconsole.log(str.indexOf('world') !== -1)"
       },
       {
          "id": 7,
          "title": "Exercício 7",
          "description": "Use indexOf para encontrar a posição da letra 'o' em 'Hello'.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let hey = 'Hello' \nconsole.log(hey.indexOf('o'))"
       },
       {
          "id": 8,
          "title": "Exercício 8",
          "description": "Substitua 'dog' por 'cat' em 'I have a dog' usando .replace().",
-         "solution": "const result = str.split(' ');"
+         "solution": "let a = 'I have a dog' \nconsole.log(a.replace('dog', 'cat'))"
       }
    ],
    "string_methods": [
