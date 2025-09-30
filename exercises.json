@@ -54,37 +54,37 @@
          "id": 1,
          "title": "Exercício 1",
          "description": "Verifique se o número 10 é igual à string '10' usando == e ===.",
-         "solution": "const result = str.slice(0, 4);"
+         "solution": "let num = 10 \nlet text = '10' \nconsole.log(num == text) \nconsole.log(num === text)"
       },
       {
          "id": 2,
          "title": "Exercício 2",
-         "description": "Verifique se o número 10 é igual à string '10' usando == e ===.",
-         "solution": "const result = str.slice(0, 4);"
+         "description": "Compare se 5 é maior que 3 e mostre o resultado.",
+         "solution": "let num1 = 5 \nlet num2 = 3 \nconsole.log(num1 > num2)"
       },
       {
          "id": 3,
          "title": "Exercício 3",
          "description": "Crie duas variáveis com idades e verifique quem é mais velho.",
-         "solution": "const result = str.slice(0, 4);"
+         "solution": "let idade1 = 20 \nlet idade2 = 28 \nconsole.log(idade1 > idade2)"
       },
       {
          "id": 4,
          "title": "Exercício 4",
          "description": "Use >= para verificar se alguém pode entrar em uma festa (idade mínima 18).",
-         "solution": "const result = str.slice(0, 4);"
+         "solution": "let person = 35 \nif(person >= 18) {\nconsole.log('você pode entrar na festa')\n}"
       },
       {
          "id": 5,
          "title": "Exercício 5",
          "description": "Crie duas variáveis balance e withdraw. Verifique se é possível sacar o dinheiro.",
-         "solution": "const result = str.slice(0, 4);"
+         "solution": "let balance = 1000 \nlet withdraw = 540 \nif(balance > withdraw) {\nconsole.log('sucess')\n} else {\nconsole.log('You cannot withdraw this value')\n}"
       },
       {
          "id": 6,
          "title": "Exercício 6",
          "description": "Teste o operador ! em valores booleanos (true e false).",
-         "solution": "const result = str.slice(0, 4);"
+         "solution": "let a = true \nlet b = false \nconsole.log(a) \nconsole.log(!a) \nconsole.log(b) \nconsole.log(!b)"
       }
    ],
    "math_assignments": [
@@ -92,31 +92,31 @@
          "id": 1,
          "title": "Exercício 1",
          "description": "Faça uma soma, subtração, multiplicação e divisão com dois números.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let number1 = 10 \nlet number2 =  5 \nconsole.log(number1 + number2) \nconsole.log(number1 - number2) \nconsole.log(number1 * number2) \nconsole.log(number1 / number2)"
       },
       {
          "id": 2,
          "title": "Exercício 2",
          "description": "Use o operador % para descobrir o resto da divisão de 17 / 5.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let num1 = 17 \nlet num2 = 5 \nconsole.log(num1 % num2)"
       },
       {
          "id": 3,
          "title": "Exercício 3",
          "description": "Crie uma variável count = 0. Use ++ três vezes.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let count = 0 \nconsole.log(count++) \nconsole.log(count++) \nconsole.log(count++)"
       },
       {
          "id": 4,
          "title": "Exercício 4",
          "description": "Faça o inverso do anterior com --.",
-         "solution": "const result = str.split(' ');"
+         "solution": "//code here"
       },
       {
          "id": 5,
          "title": "Exercício 5",
          "description": "Use += para somar 10 a uma variável score.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let score = 1 \nscore += 10 \nconsole.log(score)"
       }
    ],
    "strings": [

@@ -25,3 +25,4 @@ fetch('exercises.json')
       })
       hljs.highlightAll()
    })
+
