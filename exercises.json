@@ -174,55 +174,55 @@
          "id": 1,
          "title": "Exercício 1",
          "description": "Use slice para extrair 'Java' de 'JavaScript'.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let str = 'JavaScript' \nlet extracted = str.slice(0,4) \nconsole.log(extracted)"
       },
       {
          "id": 2,
          "title": "Exercício 2",
          "description": "Use slice para extrair 'Script' do mesmo texto.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let str = 'Javascript' \nlet extracted = str.slice(4) \nconsole.log(extracted)"
       },
       {
          "id": 3,
          "title": "Exercício 3",
          "description": "Crie uma string 'Code and coffee'. Use split() para separar em palavras.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let text = 'Code and coffee' \nconsole.log(text.split(' '))"
       },
       {
          "id": 4,
          "title": "Exercício 4",
          "description": "Use split('o') para ver como a string fica dividida.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let text = 'Code and coffee' \nconsole.log(text.split('o'))"
       },
       {
          "id": 5,
          "title": "Exercício 5",
          "description": "Use split('', 2) para pegar só duas palavras.",
-         "solution": "const result = str.split(' ');"
+         "solution": "let text = 'Code and coffee' \nconsole.log(text.split(' ', 2))"
       },
       {
          "id": 6,
          "title": "Exercício 6",
          "description": "Crie uma string com espaços antes e depois. Use .trim().",
-         "solution": "const result = str.split(' ');"
+         "solution": "let str = '  Code and coffee  ' \nconsole.log(str.trim())"
       },
       {
          "id": 7,
          "title": "Exercício 7",
          "description": "Pegue 'JavaScript is awesome' e conte quantas palavras existem (dica: split('')).",
-         "solution": "const result = str.split(' ');"
+         "solution": "let texto = 'JavaScript is awesome' \nlet qtd = text.split(' ').length \nconsole.log(`existem ${qtd} palavras`)"
       },
       {
          "id": 8,
          "title": "Exercício 8",
          "description": "Inverta uma string ('Hello' → 'olleH') usando split, reverse e join.",
-         "solution": "const result = str.split(' ');"
+         "solution": "   let str = 'Hello' \nlet newStr = str.split('').reverse().join('') \nconsole.log(newStr);"
       },
       {
          "id": 9,
          "title": "Exercício 9",
          "description": "Pegue 'banana' e conte quantas vezes a letra 'a' aparece (dica: split e length).",
-         "solution": "const result = str.split(' ');"
+         "solution": "   let fruit = 'banana' \nlet count = fruit.split('a') \nconsole.log(count.length - 1)"
       }
    ],
    "challenges": [
